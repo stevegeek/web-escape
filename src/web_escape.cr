@@ -9,9 +9,9 @@ module WebEscape
   # Replacements are \uXXXX sequences (valid JSON string escapes).
   # Implements Ruby's ERB::Util.json_escape escaping semantics.
   HTML_UNSAFE_IN_SCRIPT = {
-    '<'      => "\\u003c",
-    '>'      => "\\u003e",
-    '&'      => "\\u0026",
+    '<' => "\\u003c",
+    '>' => "\\u003e",
+    '&' => "\\u0026",
     ' ' => "\\u2028",
     ' ' => "\\u2029",
   }
